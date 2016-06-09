@@ -90,8 +90,8 @@ def loop_map_by_key(dstdir):
 
 # In[ ]:
 
-loop_map_by_key('../data/byCountry')
-
+#loop_map_by_key('../data/byCountry')
+csv_map_by_key('../data/booking_train.csv', '../data/byDesitination', key='srch_destination_id')
 
 
 
